@@ -93,7 +93,6 @@ body {
 }
 
 /* VIDEOS */
-
 .videos {
     display: flex;
     flex-direction: column;
@@ -107,7 +106,7 @@ body {
 
 /* FOOTER */
 footer {
-    background-color: #47281bc4;
+    background-color: #462112c4;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -122,8 +121,6 @@ footer p {
 
 
 /* FORMULARIO */
-
-
 form {
     display: flex;
     flex-direction: column;
@@ -164,7 +161,6 @@ textarea:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 
@@ -210,6 +206,16 @@ textarea:focus {
 
     .nav-list {
         flex-direction: row;
+        font-size: 20px;
+    }
+
+    .li {
+        padding: 0px;
+
+    }
+
+    .nav-link {
+        padding: 0px;
     }
 
     .grilla {
